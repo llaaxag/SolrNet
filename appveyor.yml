@@ -3,4 +3,5 @@ before_build:
   - nuget restore
 build:
   verbosity:minimal
+  project: SolrNet.sln
   # publish_wap: true
