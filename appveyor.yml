@@ -1,6 +1,6 @@
 configuration: Release
 before_build:
-  - nuget restore
+  - nuget restore SolrNet.sln
 build:
   verbosity:minimal
   project:SolrNet.sln
