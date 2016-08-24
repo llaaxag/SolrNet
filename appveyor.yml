@@ -1,6 +1,6 @@
 configuration: Release
 before_build:
-  - nuget restore SolrNet.sln
+  - nuget restore llaaxagSolrNet.sln
 build:
   project:llaaxagSolrNet.sln
   
